@@ -1,15 +1,14 @@
-// Example file with linting errors
+// Example file with linting errors fixed
 function exampleFunction() {
-  let unusedVar = "This variable is not used";
-  console.log("This is a console log statement");
   const message = "Hello, world!";
+  console.warn("This is a console warn statement");
   return message;
 }
 
-// Another example with double quotes
-const anotherMessage = "This should be single quotes";
+// Another example with single quotes
+const anotherMessage = 'This should be single quotes';
 
-// Missing semicolon
+// Missing semicolon fixed
 function missingSemicolon() {
-  return "Hello"
+  return "Hello";
 }
